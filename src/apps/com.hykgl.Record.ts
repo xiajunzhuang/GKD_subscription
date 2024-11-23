@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '弹窗广告',
+      name: '弹窗广告-关闭按钮右上角',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -18,7 +18,7 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '弹窗广告',
+      name: '弹窗广告-关闭按钮右下角',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
