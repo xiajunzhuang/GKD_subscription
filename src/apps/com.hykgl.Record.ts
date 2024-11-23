@@ -16,5 +16,17 @@ export default defineGkdApp({
         'FrameLayout > FrameLayout[childCount>4] > FrameLayout > ImageView',
       snapshotUrls: 'https://i.gkd.li/i/17878686',
     },
+    {
+      key: 2,
+      name: '弹窗广告',
+      quickFind: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      activityIds: 'com.csdy.yedw.ui.book.read.ReadBookActivity',
+      rules:
+        'FrameLayout[id="com.hykgl.Record:id/bannerContainer"] >n FrameLayout[childCount=3] > FrameLayout > ImageView',
+      snapshotUrls: 'https://i.gkd.li/i/17878685',
+    },
   ],
 });
