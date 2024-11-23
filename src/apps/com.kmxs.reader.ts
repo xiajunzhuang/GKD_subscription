@@ -1,7 +1,7 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.kmxs.reader\t',
+  id: 'com.kmxs.reader',
   name: '七猫免费小说',
   groups: [
     {
