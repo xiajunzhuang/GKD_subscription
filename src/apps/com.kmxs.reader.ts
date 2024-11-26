@@ -15,5 +15,16 @@ export default defineGkdApp({
       rules: 'TextView[id="com.kmxs.reader:id/bubble_close"]',
       snapshotUrls: 'https://i.gkd.li/i/17878884',
     },
+    {
+      key: 2,
+      name: '小说预览界面-广告关闭确认按钮',
+      quickFind: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      activityIds: 'org.geometerplus.android.fbreader.FBReader',
+      rules: 'TextView[id="com.kmxs.reader:id/bubble_close"]',
+      snapshotUrls: 'https://i.gkd.li/i/17910665',
+    },
   ],
 });
